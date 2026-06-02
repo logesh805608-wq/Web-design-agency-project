@@ -14,16 +14,17 @@ h1 {
   font-size: 5rem;
 }
 
-
 footer {
   text-align: right;
-  color: rgb(43, 135, 132);}
+  color: midnightblue;
+}
 
-.tile-image{
+.tile-image {
   height: 200px;
   float: left;
   margin-right: 50px;
 }
+
 .card {
   width: 45%;
 }
@@ -31,38 +32,36 @@ footer {
 .left {
   float: left;
 }
+
 .right {
   float: right;
 }
+
 .creative {
-  color: rgb(43, 135, 132);
+  color: midnightblue;
 }
 
 @media (max-width: 680px) {
   .logo {
     width: 100px;
   }
-  body {
-    background-color: #917575;
-  }
-  h1{
+
+  h1 {
     font-size: 3.5rem;
     text-align: center;
   }
-  .card{
+
+  .card {
     width: 100%;
     display: block;
     margin-bottom: 30px;
     text-align: justify;
   }
+
   .card img {
-    display: inline;
-    margin: 0px 0px 20px 0px;
+    margin-bottom: 10px;
     width: 100%;
+    display: inline;
     object-fit: cover;
   }
-  
 }
-
-
-
